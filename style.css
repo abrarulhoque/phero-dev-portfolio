@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Font Import */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+/* Header Section */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 225px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav li{
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.orange-text{
+    color: #FD6E0A;
+}
+
+.nav-cta{
+    background-color: #FD6E0A;
+    color: white;
+}
